@@ -1,0 +1,17 @@
+.row > div{
+	background: rgba(0,0,0,.4);
+}
+.container-fluid{
+	outline: 1px green solid;
+}
+.foo{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	background: rgba(0,0,0,.6);
+}
+.col-sm-4{
+}
+.img-showcase{
+	margin-top: 50px;
+}
