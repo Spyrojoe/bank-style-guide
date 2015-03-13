@@ -15,11 +15,11 @@ h3{
 }
 .img-showcase{
 	padding: 5%;
+	text-align: center;
 	background-image: url(../img/ps_neutral/ps_neutral.png);
 }
-.social-icon-row.thumbnail > img{
-	width: 100%;
-	max-width: 30px;
+.img-showcase > img{
+	display: inline;
 }
 .twitter-icon{
 	background-color: white;
@@ -30,10 +30,33 @@ h3{
 .main-content{
 	background-color: rgba(0,0,0,.06);
 }
-.main-content h2:first-of-type{
-	padding-left: 15px;
+.main-content h2{
+	padding: 15px;
 }
-
 .main-content .row:not(:first-of-type) p{
 	margin-bottom: 0;
+}
+.main-content table{
+	background: #FFF;
+}
+.social-icon-row img:nth-of-type(2){
+	margin: 0 8%;
+}
+.email-header{
+	height: 102px;
+	margin: 0 15px;
+	border-bottom: 8px rgb(37, 119, 202) solid;
+	background: #FFF;
+}
+.email-header .row:first-of-type{
+	line-height: 102px;
+}
+.email-header .col-md-6:first-of-type{
+	text-align: left;
+}
+.email-header .col-md-6:last-of-type{
+	text-align: right;
+}
+.email-header img:first-of-type{
+	max-width: 190px;
 }
