@@ -1,8 +1,11 @@
-.row > div{
-	background: rgba(0,0,0,.4);
+h2{
+	background-color: rgba(0,0,0,.1);
+}
+h3{
+	margin-top: 0;
 }
 .container-fluid{
-	outline: 1px green solid;
+	max-width: 900px;
 }
 .foo{
 	width: 100px;
@@ -10,8 +13,27 @@
 	margin: 0 auto;
 	background: rgba(0,0,0,.6);
 }
-.col-sm-4{
-}
 .img-showcase{
-	margin-top: 50px;
+	padding: 5%;
+	background-image: url(../img/ps_neutral/ps_neutral.png);
+}
+.social-icon-row.thumbnail > img{
+	width: 100%;
+	max-width: 30px;
+}
+.twitter-icon{
+	background-color: white;
+	border-radius: 4px;
+	padding: 4px;
+	outline: 1px lightgray solid;
+}
+.main-content{
+	background-color: rgba(0,0,0,.06);
+}
+.main-content h2:first-of-type{
+	padding-left: 15px;
+}
+
+.main-content .row:not(:first-of-type) p{
+	margin-bottom: 0;
 }
