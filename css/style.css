@@ -1,3 +1,13 @@
+#attention{
+  padding: 8px 0;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 200;
+  text-transform: uppercase;
+  background-color: red;
+  color: white;
+}
 h2{
 	background-color: rgba(0,0,0,.1);
 }
@@ -7,11 +17,14 @@ h3{
 .container-fluid{
 	max-width: 900px;
 }
-.foo{
-	width: 100px;
-	height: 100px;
-	margin: 0 auto;
-	background: rgba(0,0,0,.6);
+.navbar-default {
+  border-color: #e7e7e7;
+}
+.body{
+	margin-bottom: 5%;
+}
+footer{
+	background-color: #e7e7e7
 }
 .img-showcase{
 	padding: 5%;
@@ -28,9 +41,11 @@ h3{
 	outline: 1px lightgray solid;
 }
 .main-content{
+	padding: 15px;
 	background-color: rgba(0,0,0,.06);
 }
 .main-content h2{
+	margin: 0 auto 5%;
 	padding: 15px;
 }
 .main-content .row:not(:first-of-type) p{
@@ -42,21 +57,28 @@ h3{
 .social-icon-row img:nth-of-type(2){
 	margin: 0 8%;
 }
-.email-header{
-	height: 102px;
-	margin: 0 15px;
+.extraco-email-header{
+	margin: 0 15px 15px;
 	border-bottom: 8px rgb(37, 119, 202) solid;
-	background: #FFF;
-}
-.email-header .row:first-of-type{
+	text-align: left;
 	line-height: 102px;
 }
-.email-header .col-md-6:first-of-type{
-	text-align: left;
+.extraco-email-header > * {
+	line-height: 102px;
 }
-.email-header .col-md-6:last-of-type{
-	text-align: right;
+.extraco-email-header > div{
+	background: #FFF;
 }
 .email-header img:first-of-type{
 	max-width: 190px;
+}
+.email-header .row:first-of-type .col-xs-12{
+	
+}
+.thumbnail > img, .thumbnail a > img {
+	display: inline;
+	margin: 0;
+}
+.icon-row{
+	float: right;
 }
